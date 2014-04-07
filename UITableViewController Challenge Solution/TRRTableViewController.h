@@ -1,5 +1,5 @@
 //
-//  TRRViewController.h
+//  TRRTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Humza Iqbal on 4/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRRViewController : UIViewController
+@interface TRRTableViewController : UITableViewController
 
 @end

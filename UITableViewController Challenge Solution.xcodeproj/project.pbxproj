@@ -14,13 +14,13 @@
 		44B90B2318F32281006DDD07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90B2218F32281006DDD07 /* main.m */; };
 		44B90B2718F32281006DDD07 /* TRRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90B2618F32281006DDD07 /* TRRAppDelegate.m */; };
 		44B90B2A18F32281006DDD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B90B2818F32281006DDD07 /* Main.storyboard */; };
-		44B90B2D18F32281006DDD07 /* TRRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90B2C18F32281006DDD07 /* TRRViewController.m */; };
 		44B90B2F18F32281006DDD07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B90B2E18F32281006DDD07 /* Images.xcassets */; };
 		44B90B3618F32281006DDD07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B90B3518F32281006DDD07 /* XCTest.framework */; };
 		44B90B3718F32281006DDD07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B90B1618F32281006DDD07 /* Foundation.framework */; };
 		44B90B3818F32281006DDD07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B90B1A18F32281006DDD07 /* UIKit.framework */; };
 		44B90B4018F32281006DDD07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44B90B3E18F32281006DDD07 /* InfoPlist.strings */; };
 		44B90B4218F32281006DDD07 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90B4118F32281006DDD07 /* UITableViewController_Challenge_SolutionTests.m */; };
+		44B90B4D18F32765006DDD07 /* TRRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B90B4C18F32765006DDD07 /* TRRTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		44B90B2518F32281006DDD07 /* TRRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRRAppDelegate.h; sourceTree = "<group>"; };
 		44B90B2618F32281006DDD07 /* TRRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRRAppDelegate.m; sourceTree = "<group>"; };
 		44B90B2918F32281006DDD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44B90B2B18F32281006DDD07 /* TRRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRRViewController.h; sourceTree = "<group>"; };
-		44B90B2C18F32281006DDD07 /* TRRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRRViewController.m; sourceTree = "<group>"; };
 		44B90B2E18F32281006DDD07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44B90B3418F32281006DDD07 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B90B3518F32281006DDD07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44B90B3D18F32281006DDD07 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		44B90B3F18F32281006DDD07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44B90B4118F32281006DDD07 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		44B90B4B18F32765006DDD07 /* TRRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRRTableViewController.h; sourceTree = "<group>"; };
+		44B90B4C18F32765006DDD07 /* TRRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRRTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				44B90B2518F32281006DDD07 /* TRRAppDelegate.h */,
 				44B90B2618F32281006DDD07 /* TRRAppDelegate.m */,
 				44B90B2818F32281006DDD07 /* Main.storyboard */,
-				44B90B2B18F32281006DDD07 /* TRRViewController.h */,
-				44B90B2C18F32281006DDD07 /* TRRViewController.m */,
+				44B90B4B18F32765006DDD07 /* TRRTableViewController.h */,
+				44B90B4C18F32765006DDD07 /* TRRTableViewController.m */,
 				44B90B2E18F32281006DDD07 /* Images.xcassets */,
 				44B90B1D18F32281006DDD07 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B90B2D18F32281006DDD07 /* TRRViewController.m in Sources */,
 				44B90B2318F32281006DDD07 /* main.m in Sources */,
+				44B90B4D18F32765006DDD07 /* TRRTableViewController.m in Sources */,
 				44B90B2718F32281006DDD07 /* TRRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
